@@ -16,7 +16,6 @@
   box-sizing: border-box;
   display: flex;
   align-items: center;
-  margin-top: 20px;
 
   border: 1px solid #e1e7ed;
   border-radius: 4px;
@@ -29,6 +28,8 @@
 .search-bar--large {
   height: 70px;
   padding-inline: 26px;
+  margin: 20px 0;
+
   gap: 17px;
 }
 
