@@ -12,6 +12,11 @@
   src: url('./fonts/Avenir-Heavy.ttf') format('truetype');
 }
 
+.page {
+  font-family: Avenir, sans-serif;
+  font-weight: 300;
+}
+
 .search-bar {
   box-sizing: border-box;
   display: flex;
@@ -28,7 +33,8 @@
 .search-bar--large {
   height: 70px;
   padding-inline: 26px;
-  margin: 20px 0;
+  margin-top: 20px;
+  margin-bottom: 20px;
 
   gap: 17px;
 }
@@ -48,7 +54,7 @@
 }
 
 .search-bar__icon {
-  background-image: url(./images/Search.svg);
+  background-image: url(src/images/Search.svg);
   background-repeat: no-repeat;
 }
 
